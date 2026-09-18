@@ -82,7 +82,7 @@ The goal is to keep the application easy to understand while still demonstrating
 
 The Admin interface provides an overview of the learning platform.
 
-```text
+
 📊 Dashboard
 📚 Courses
 🧩 Modules
@@ -90,9 +90,9 @@ The Admin interface provides an overview of the learning platform.
 👥 Students
 👩🏻‍🏫 Mentors
 🔓 Unlock Requests
-```
 
-##👩🏻‍🏫 Mentor
+
+👩🏻‍🏫 Mentor
 
 The Mentor interface focuses on students and learning management.
 
@@ -104,7 +104,7 @@ The Mentor interface focuses on students and learning management.
 🔓 Unlock Requests
 
 
-##🎓 Student
+🎓 Student
 
 The Student interface focuses on learning and course progress.
 
@@ -115,7 +115,7 @@ The Student interface focuses on learning and course progress.
 🔓 Request Unlock
 
 
-#🌷 Application Flow
+🌷 Application Flow
 <div align="center">
                          🔐 LOGIN
                             │
