@@ -1,3 +1,57 @@
+<div align="center">
+
+# 🌸 Smart Learning Frontend
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=900&color=866BE8&center=true&vCenter=true&width=900&lines=Welcome+to+Smart+Learning+%F0%9F%8C%B8;Learn+%E2%80%A2+Grow+%E2%80%A2+Achieve+%E2%9C%A8;A+Cute+%26+Modern+Learning+Platform+%F0%9F%92%9C;Admin+%7C+Mentor+%7C+Student+%F0%9F%91%A5" alt="Typing Animation" />
+
+<br>
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="420" alt="Coding Animation"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Axios-API-5A29E4?style=for-the-badge&logo=axios&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/Recharts-Analytics-8B5CF6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/React%20Router-Navigation-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"/>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=180&section=header&text=SMART%20LEARNING&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%"/>
+
+</div>
+
+---
+
+## 🌷 About the Project
+
+**Smart Learning** is a modern React-based learning management frontend designed around three user roles:
+
+```text
+👑 Admin
+      │
+      ├── Manage courses
+      ├── Monitor learning activity
+      └── Review unlock requests
+
+👩🏻‍🏫 Mentor
+      │
+      ├── Monitor students
+      ├── Review learning requests
+      └── Support learners
+
+🎓 Student
+      │
+      ├── Explore courses
+      ├── Study modules
+      ├── Read notes
+      └── Request module access
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
