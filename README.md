@@ -91,8 +91,10 @@ The Admin interface provides an overview of the learning platform.
 👩🏻‍🏫 Mentors
 🔓 Unlock Requests
 
+---
 
-👩🏻‍🏫 Mentor
+
+## 👩🏻‍🏫 Mentor
 
 The Mentor interface focuses on students and learning management.
 
@@ -103,8 +105,10 @@ The Mentor interface focuses on students and learning management.
 📝 Notes
 🔓 Unlock Requests
 
+---
 
-🎓 Student
+
+## 🎓 Student
 
 The Student interface focuses on learning and course progress.
 
@@ -117,6 +121,7 @@ The Student interface focuses on learning and course progress.
 
 🌷 Application Flow
 <div align="center">
+  ```text
                          🔐 LOGIN
                             │
              ┌──────────────┼──────────────┐
@@ -144,9 +149,11 @@ The Student interface focuses on learning and course progress.
                        │         │
                        ▼         ▼
                     📝 NOTES   🔓 REQUEST
+```
+
 </div>
 
-
+---
                 
 # 📸 Screenshots
 
