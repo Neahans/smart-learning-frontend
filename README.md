@@ -90,130 +90,187 @@ The Admin interface provides an overview of the learning platform.
 👥 Students
 👩🏻‍🏫 Mentors
 🔓 Unlock Requests
+```
 
+👩🏻‍🏫 Mentor
+
+The Mentor interface focuses on students and learning management.
+
+📊 Dashboard
+👥 My Students
+📚 Courses
+🧩 Modules
+📝 Notes
+🔓 Unlock Requests
+🎓 Student
+
+The Student interface focuses on learning and course progress.
+
+📊 Dashboard
+📚 Courses
+🧩 Modules
+📝 Notes
+🔓 Request Unlock
+🌷 Application Flow
+                    🔐 LOGIN
+                       │
+        ┌──────────────┼──────────────┐
+        │              │              │
+        ▼              ▼              ▼
+     👑 ADMIN       👩🏻‍🏫 MENTOR     🎓 STUDENT
+        │              │              │
+        ▼              ▼              ▼
+    DASHBOARD       DASHBOARD      DASHBOARD
+        │              │              │
+        └──────────────┼──────────────┘
+                       │
+                       ▼
+                  📚 COURSES
+                       │
+                       ▼
+                📖 COURSE DETAILS
+                       │
+                       ▼
+                   🧩 MODULES
+                  ┌────┴────┐
+                  │         │
+                  ▼         ▼
+                ✅ OPEN    🔒 LOCKED
+                  │         │
+                  ▼         ▼
+                📝 NOTES   🔓 REQUEST
+
+                
 # 📸 Screenshots
 
+## 👑 Admin
+
+### 🔐 Admin Login
+
+<p align="center">
+  <img
+    src="./src/screenshots/admin%20login.png"
+    width="90%"
+    alt="Admin Login"
+  />
+</p>
+
+### 📊 Admin Dashboard
+
+<p align="center">
+  <img
+    src="./src/screenshots/admin%201.png"
+    width="90%"
+    alt="Admin Dashboard"
+  />
+</p>
+
+### 📚 Admin Management
+
+<p align="center">
+  <img
+    src="./src/screenshots/admin%202.png"
+    width="90%"
+    alt="Admin Management"
+  />
+</p>
+
+---
+
+## 👩🏻‍🏫 Mentor
+
+### 🔐 Mentor Login
+
+<p align="center">
+  <img
+    src="./src/screenshots/mentor%20login.png"
+    width="90%"
+    alt="Mentor Login"
+  />
+</p>
+
+### 📊 Mentor Dashboard
+
+<p align="center">
+  <img
+    src="./src/screenshots/mentor1.png"
+    width="90%"
+    alt="Mentor Dashboard"
+  />
+</p>
+
+### 👥 Mentor View
+
+<p align="center">
+  <img
+    src="./src/screenshots/mentor2.png"
+    width="90%"
+    alt="Mentor View"
+  />
+</p>
+
+---
+
+## 🎓 Student
+
+### 🔐 Student Login
+
+<p align="center">
+  <img
+    src="./src/screenshots/student%20login.png"
+    width="90%"
+    alt="Student Login"
+  />
+</p>
+
+### 📊 Student Dashboard
+
+<p align="center">
+  <img
+    src="./src/screenshots/student1.png"
+    width="90%"
+    alt="Student Dashboard"
+  />
+</p>
+
+### 📚 Student Learning View
+
+<p align="center">
+  <img
+    src="./src/screenshots/student2.png"
+    width="90%"
+    alt="Student Learning View"
+  />
+</p>
+---
+🛠️ Tech Stack
 <div align="center">
+Frontend
+<img src="https://skillicons.dev/icons?i=react,js,html,css,bootstrap">
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=24&pause=800&color=866BE8&center=true&vCenter=true&width=750&lines=A+little+look+inside+Smart+Learning+%F0%9F%8C%B8;Soft+Colors+%E2%80%A2+Clean+UI+%E2%80%A2+Simple+Learning+%F0%9F%92%9C"
-  alt="Screenshot Heading"
-/>
+<br><br>
 
+Tools
+<img src="https://skillicons.dev/icons?i=git,github,vscode"> </div>
+Libraries Used
+⚛️ React
+🧭 React Router DOM
+📡 Axios
+🎨 Bootstrap
+✨ Bootstrap Icons
+📊 Recharts
+
+🐍 Backend
+
+The backend is developed using Django + Django REST Framework.
+
+<div align="center"> <a href="https://github.com/Neahans/smart-learning-backend">
+
+<img src="https://img.shields.io/badge/🐍%20Smart%20Learning%20Backend-View%20Repository-866BE8?style=for-the-badge" alt="Backend Repository" />
+
+</a>
+
+<br><br>
+
+🔗 Smart Learning Backend
 </div>
-
----
-
-# 👑 Admin Interface
-
-## 🔐 Admin Login
-
-<p align="center">
-  <img
-    src="src/screenshots/admin%20login.png"
-    width="90%"
-    alt="Smart Learning Admin Login"
-  >
-</p>
-
----
-
-## 📊 Admin Dashboard
-
-<p align="center">
-  <img
-    src="src/screenshots/admin%201.png"
-    width="90%"
-    alt="Smart Learning Admin Dashboard"
-  >
-</p>
-
----
-
-## 📚 Admin Learning Management
-
-<p align="center">
-  <img
-    src="src/screenshots/admin%202.png"
-    width="90%"
-    alt="Smart Learning Admin Management"
-  >
-</p>
-
----
-
-# 👩🏻‍🏫 Mentor Interface
-
-## 🔐 Mentor Login
-
-<p align="center">
-  <img
-    src="src/screenshots/mentor%20login.png"
-    width="90%"
-    alt="Smart Learning Mentor Login"
-  >
-</p>
-
----
-
-## 📊 Mentor Dashboard
-
-<p align="center">
-  <img
-    src="src/screenshots/mentor1.png"
-    width="90%"
-    alt="Smart Learning Mentor Dashboard"
-  >
-</p>
-
----
-
-## 👥 Mentor Learning View
-
-<p align="center">
-  <img
-    src="src/screenshots/mentor2.png"
-    width="90%"
-    alt="Smart Learning Mentor View"
-  >
-</p>
-
----
-
-# 🎓 Student Interface
-
-## 🔐 Student Login
-
-<p align="center">
-  <img
-    src="src/screenshots/student%20login.png"
-    width="90%"
-    alt="Smart Learning Student Login"
-  >
-</p>
-
----
-
-## 📊 Student Dashboard
-
-<p align="center">
-  <img
-    src="src/screenshots/student1.png"
-    width="90%"
-    alt="Smart Learning Student Dashboard"
-  >
-</p>
-
----
-
-## 📚 Student Learning View
-
-<p align="center">
-  <img
-    src="src/screenshots/student2.png"
-    width="90%"
-    alt="Smart Learning Student Learning View"
-  >
-</p>
-
----
