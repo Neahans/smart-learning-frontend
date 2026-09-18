@@ -90,3 +90,11 @@ The Admin interface provides an overview of the learning platform.
 👥 Students
 👩🏻‍🏫 Mentors
 🔓 Unlock Requests
+
+
+📸 Screenshots
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=500&size=24&pause=800&color=866BE8&center=true&vCenter=true&width=750&lines=A+little+look+inside+Smart+Learning+%F0%9F%8C%B8;Soft+Colors+%E2%80%A2+Clean+UI+%E2%80%A2+Simple+Learning+%F0%9F%92%9C" alt="Screenshot Heading" />
+
+</div>
