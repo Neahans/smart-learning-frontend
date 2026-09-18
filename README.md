@@ -92,7 +92,7 @@ The Admin interface provides an overview of the learning platform.
 🔓 Unlock Requests
 ```
 
-👩🏻‍🏫 Mentor
+##👩🏻‍🏫 Mentor
 
 The Mentor interface focuses on students and learning management.
 
@@ -102,7 +102,9 @@ The Mentor interface focuses on students and learning management.
 🧩 Modules
 📝 Notes
 🔓 Unlock Requests
-🎓 Student
+
+
+##🎓 Student
 
 The Student interface focuses on learning and course progress.
 
@@ -111,39 +113,38 @@ The Student interface focuses on learning and course progress.
 🧩 Modules
 📝 Notes
 🔓 Request Unlock
-🌷 Application Flow
-
-<br><br>
-                    🔐 LOGIN
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-        ▼              ▼              ▼
-     👑 ADMIN       👩🏻‍🏫 MENTOR     🎓 STUDENT
-        │              │              │
-        ▼              ▼              ▼
-    DASHBOARD       DASHBOARD      DASHBOARD
-        │              │              │
-        └──────────────┼──────────────┘
-                       │
-                       ▼
-                  📚 COURSES
-                       │
-                       ▼
-                📖 COURSE DETAILS
-                       │
-                       ▼
-                   🧩 MODULES
-                  ┌────┴────┐
-                  │         │
-                  ▼         ▼
-                ✅ OPEN    🔒 LOCKED
-                  │         │
-                  ▼         ▼
-                📝 NOTES   🔓 REQUEST
 
 
-<br><br>
+#🌷 Application Flow
+<div align="center">
+                         🔐 LOGIN
+                            │
+             ┌──────────────┼──────────────┐
+             │              │              │
+             ▼              ▼              ▼
+          👑 ADMIN       👩🏻‍🏫 MENTOR     🎓 STUDENT
+             │              │              │
+             ▼              ▼              ▼
+         DASHBOARD      DASHBOARD      DASHBOARD
+             │              │              │
+             └──────────────┼──────────────┘
+                            │
+                            ▼
+                       📚 COURSES
+                            │
+                            ▼
+                    📖 COURSE DETAILS
+                            │
+                            ▼
+                         🧩 MODULES
+                       ┌────┴────┐
+                       │         │
+                       ▼         ▼
+                    ✅ OPEN    🔒 LOCKED
+                       │         │
+                       ▼         ▼
+                    📝 NOTES   🔓 REQUEST
+</div>
 
 
                 
