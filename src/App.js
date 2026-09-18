@@ -1,24 +1,93 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Courses from "./pages/Courses";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Layout from "./components/Layout";
+import CourseDetails from "./pages/CourseDetails";
+import "./App.css";
+import ModuleDetails from "./pages/ModuleDetails";
+import UnlockRequests from "./pages/UnlockRequests";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+
+      <Route
+        path="/"
+        element={
+          <Navigate
+            to="/login"
+            replace
+          />
+        }
+      />
+
+      <Route
+        path="/login"
+        element={<Login />}
+      />
+
+      <Route
+        path="/dashboard"
+        element={
+          <Layout>
+            <Dashboard />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="*"
+        element={
+          <Navigate
+            to="/dashboard"
+            replace
+          />
+        }
+      />
+
+      <Route
+        path="/courses"
+        element={
+          <Layout>
+            <Courses />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="/courses/:id"
+        element={
+          <Layout>
+            <CourseDetails />
+          </Layout>
+        }
+      />
+
+      <Route
+        path="/modules/:id"
+        element={
+          <Layout>
+            <ModuleDetails />
+          </Layout>
+        }
+      />
+
+
+      <Route
+        path="/unlock-requests"
+        element={
+          <Layout>
+            <UnlockRequests/>
+          </Layout>
+        }
+      />
+      
+    </Routes>
+
+    
   );
 }
 

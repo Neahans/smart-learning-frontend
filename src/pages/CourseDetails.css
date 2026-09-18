@@ -1,0 +1,186 @@
+.course-details-page {
+  width: 100%;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.course-details-hero {
+  display: flex;
+  gap: 30px;
+
+  padding: 25px;
+
+  background: #ffffff;
+  border-radius: 18px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.course-details-image {
+  width: 320px;
+  height: 220px;
+
+  flex-shrink: 0;
+
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.course-details-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.course-details-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.course-details-category {
+  color: #6366f1;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+}
+
+.course-details-info h1 {
+  margin: 8px 0 12px;
+
+  color: #111827;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.course-details-info p {
+  max-width: 700px;
+
+  color: #6b7280;
+
+  line-height: 1.6;
+}
+
+.course-details-meta {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+  margin-top: 15px;
+
+  color: #475569;
+
+  font-size: 13px;
+}
+
+.course-details-meta span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.course-details-meta i {
+  color: #6366f1;
+}
+
+/* Modules */
+
+.modules-section {
+  margin-top: 30px;
+}
+
+.modules-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.modules-heading h2 {
+  margin: 0;
+
+  color: #111827;
+  font-weight: 700;
+}
+
+.modules-heading p {
+  margin: 5px 0 0;
+
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.module-progress {
+  width: 220px;
+}
+
+.module-progress .progress {
+  height: 8px;
+
+  background: #e5e7eb;
+
+  border-radius: 20px;
+}
+
+.module-progress .progress-bar {
+  background: #6366f1;
+
+  border-radius: 20px;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.course-not-found {
+  min-height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 10px;
+
+  text-align: center;
+}
+
+.course-not-found i {
+  font-size: 50px;
+  color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+  .course-details-hero {
+    flex-direction: column;
+  }
+
+  .course-details-image {
+    width: 100%;
+    height: 220px;
+  }
+
+  .course-details-info h1 {
+    font-size: 26px;
+  }
+
+  .modules-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .module-progress {
+    width: 100%;
+  }
+}

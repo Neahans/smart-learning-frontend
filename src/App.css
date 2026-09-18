@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.main-area {
+  margin-left: 250px;
+  min-height: 100vh;
+  background:url("C:\Users\Neaha\Django\django\react\smart-learning-frontend\src\office-coffee-interior-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-content {
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .main-area {
+    margin-left: 70px;
+  }
+
+  .page-content {
+    padding: 20px 15px;
+  }
+}

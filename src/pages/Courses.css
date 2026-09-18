@@ -1,0 +1,160 @@
+.courses-page {
+  width: 100%;
+}
+
+.courses-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.courses-heading h2 {
+  margin: 0;
+
+  color: #111827;
+  font-weight: 700;
+}
+
+.courses-heading p {
+  margin: 6px 0 0;
+
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Toolbar */
+
+.courses-toolbar {
+  display: flex;
+  gap: 15px;
+
+  margin-bottom: 18px;
+}
+
+.course-search {
+  flex: 1;
+
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 15px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.course-search i {
+  color: #94a3b8;
+  margin-right: 10px;
+}
+
+.course-search input {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  font-size: 13px;
+}
+
+.course-search input::placeholder {
+  color: #94a3b8;
+}
+
+.course-filter {
+  width: 210px;
+
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 0 15px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.course-filter i {
+  color: #6366f1;
+  margin-right: 10px;
+}
+
+.course-filter select {
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #374151;
+  font-size: 13px;
+}
+
+/* Count */
+
+.course-count {
+  margin-bottom: 18px;
+
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.course-count strong {
+  color: #4f46e5;
+}
+
+/* Empty */
+
+.course-empty {
+  background: #ffffff;
+  border-radius: 16px;
+
+  padding: 70px 20px;
+
+  text-align: center;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.course-empty i {
+  font-size: 45px;
+  color: #a5b4fc;
+}
+
+.course-empty h4 {
+  margin: 15px 0 5px;
+  font-weight: 700;
+}
+
+.course-empty p {
+  margin: 0;
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .courses-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .courses-heading .btn {
+    width: 100%;
+  }
+
+  .courses-toolbar {
+    flex-direction: column;
+  }
+
+  .course-filter {
+    width: 100%;
+  }
+}

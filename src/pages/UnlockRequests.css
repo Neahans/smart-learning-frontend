@@ -1,0 +1,182 @@
+.unlock-page {
+  padding-bottom: 30px;
+}
+
+.unlock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.unlock-header h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #202040;
+}
+
+.unlock-header p {
+  margin-top: 6px;
+  color: #777;
+}
+
+.back-btn {
+  border: none;
+  background: #eef0ff;
+  color: #4f46e5;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #e1e4ff;
+}
+
+.request-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.request-card {
+  background: white;
+  border-radius: 16px;
+  padding: 22px;
+  display: flex;
+  gap: 18px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.request-icon {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #f0edff;
+  color: #6d5dfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.request-content {
+  flex: 1;
+}
+
+.request-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.request-top h4 {
+  margin: 0;
+  color: #202040;
+  font-weight: 700;
+}
+
+.course-name {
+  color: #777;
+  margin: 4px 0 14px;
+}
+
+.request-content p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: #fff4d6;
+  color: #a86b00;
+}
+
+.status-badge.approved {
+  background: #dff7e8;
+  color: #218838;
+}
+
+.status-badge.rejected {
+  background: #fde2e2;
+  color: #c62828;
+}
+
+.request-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.approve-btn,
+.reject-btn {
+  border: none;
+  padding: 9px 15px;
+  border-radius: 9px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: #e0f6e8;
+  color: #198754;
+}
+
+.reject-btn {
+  background: #fde7e7;
+  color: #dc3545;
+}
+
+.approve-btn:hover {
+  background: #cdeed9;
+}
+
+.reject-btn:hover {
+  background: #f8d2d2;
+}
+
+.empty-request {
+  background: white;
+  border-radius: 16px;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.empty-request i {
+  font-size: 45px;
+  color: #6d5dfc;
+}
+
+.empty-request h4 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.empty-request p {
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .unlock-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .request-card {
+    padding: 17px;
+  }
+
+  .request-top {
+    flex-direction: column;
+  }
+}
