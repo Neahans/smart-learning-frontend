@@ -44,7 +44,6 @@
 
 👑 **Administrators**
 
-The application follows a soft **lavender, pastel purple, pink, and cozy study-inspired design**.
 
 The goal is to keep the application easy to understand while still demonstrating a complete learning workflow.
 
