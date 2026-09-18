@@ -112,6 +112,8 @@ The Student interface focuses on learning and course progress.
 📝 Notes
 🔓 Request Unlock
 🌷 Application Flow
+
+<br><br>
                     🔐 LOGIN
                        │
         ┌──────────────┼──────────────┐
@@ -139,6 +141,10 @@ The Student interface focuses on learning and course progress.
                   │         │
                   ▼         ▼
                 📝 NOTES   🔓 REQUEST
+
+
+<br><br>
+
 
                 
 # 📸 Screenshots
@@ -259,6 +265,7 @@ Libraries Used
 🎨 Bootstrap
 ✨ Bootstrap Icons
 📊 Recharts
+---
 
 🐍 Backend
 
