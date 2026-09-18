@@ -123,7 +123,8 @@ The Student interface focuses on learning and course progress.
 # 🌷 Application Flow
 
 <div align="center">
-```text
+
+  ```text
   
                          🔐 LOGIN
                             │
@@ -153,7 +154,8 @@ The Student interface focuses on learning and course progress.
                        ▼         ▼
                     📝 NOTES   🔓 REQUEST
                     
-    ```
+  ```
+
 </div>
 
 
