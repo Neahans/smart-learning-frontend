@@ -118,9 +118,12 @@ The Student interface focuses on learning and course progress.
 🔓 Request Unlock
 
 
-🌷 Application Flow
+---
+
+#🌷 Application Flow
+```text
 <div align="center">
-  ```text
+  
                          🔐 LOGIN
                             │
              ┌──────────────┼──────────────┐
@@ -148,9 +151,10 @@ The Student interface focuses on learning and course progress.
                        │         │
                        ▼         ▼
                     📝 NOTES   🔓 REQUEST
-```
+
 
 </div>
+```
 
 ---
                 
